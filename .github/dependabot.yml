@@ -9,10 +9,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-  - package-ecosystem: "node"
-    directory: "/"
-    schedule:
-      interval: "daily"
+  #- package-ecosystem: "node"
+  #  directory: "/"
+   # schedule:
+    #  interval: "daily"
 ignore:
   - path: "login.html"
   - path: "register.html"
